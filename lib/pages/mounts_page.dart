@@ -21,7 +21,18 @@ class MountsPage extends StatelessWidget {
         ),
         centerTitle: true,
       ),
-      drawer: const Drawer(),
+      drawer: Drawer(
+        child: Container(
+          padding: const EdgeInsets.all(30),
+          color: MainColor.color,
+          alignment: Alignment.bottomLeft,
+          child: const Icon(
+            Icons.terrain,
+            color: Colors.white,
+            size: 80,
+          ),
+        ),
+      ),
       body: const Center(
         child: Text('Welcome to Mounts of the World!'),
       ),
