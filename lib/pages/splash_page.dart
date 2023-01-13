@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mounts_of_the_world/pages/mounts_page.dart';
 import 'package:mounts_of_the_world/util/color.dart';
 
 class SplashPage extends StatelessWidget {
@@ -6,6 +7,10 @@ class SplashPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Future.delayed(const Duration(seconds: 2), () {
+      Navigator.of(context)
+          .push(MaterialPageRoute(builder: ((context) => const MountsPage())));
+    });
     return Container(
       color: MainColor.color,
       child: Stack(
