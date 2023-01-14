@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mounts_of_the_world/util/color.dart';
 
+import '../widgets/AppHeader.dart';
+
 class MountsPage extends StatelessWidget {
   const MountsPage({Key? key}) : super(key: key);
 
@@ -33,8 +35,11 @@ class MountsPage extends StatelessWidget {
           ),
         ),
       ),
-      body: const Center(
-        child: Text('Welcome to Mounts of the World!'),
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: const [
+          AppHeader(),
+        ],
       ),
     );
   }
