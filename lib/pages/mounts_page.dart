@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mounts_of_the_world/util/color.dart';
 
 import '../widgets/app_header.dart';
+import '../widgets/app_mount_list_view.dart';
 import '../widgets/app_search.dart';
 
 class MountsPage extends StatelessWidget {
@@ -41,6 +42,9 @@ class MountsPage extends StatelessWidget {
         children: const [
           AppHeader(),
           AppSearch(),
+          Expanded(
+            child: AppMountListView(),
+          ),
         ],
       ),
     );
