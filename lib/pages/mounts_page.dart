@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mounts_of_the_world/util/color.dart';
 
-import '../widgets/AppHeader.dart';
+import '../widgets/app_header.dart';
+import '../widgets/app_search.dart';
 
 class MountsPage extends StatelessWidget {
   const MountsPage({Key? key}) : super(key: key);
@@ -39,6 +40,7 @@ class MountsPage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: const [
           AppHeader(),
+          AppSearch(),
         ],
       ),
     );
