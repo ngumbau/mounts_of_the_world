@@ -5,6 +5,7 @@ import '../widgets/app_category_list.dart';
 import '../widgets/app_header.dart';
 import '../widgets/app_mount_list.dart';
 import '../widgets/app_search.dart';
+import '../widgets/app_bottom_bar.dart';
 
 class MountsPage extends StatelessWidget {
   const MountsPage({Key? key}) : super(key: key);
@@ -40,13 +41,14 @@ class MountsPage extends StatelessWidget {
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: const [
-          AppHeader(),
-          AppSearch(),
-          Expanded(
+        children: [
+          const AppHeader(),
+          const AppSearch(),
+          const Expanded(
             child: AppMountList(),
           ),
-          AppCategoryList(),
+          const AppCategoryList(),
+          AppBottomBar(),
         ],
       ),
     );
