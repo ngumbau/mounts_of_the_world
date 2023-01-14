@@ -3,8 +3,8 @@ import 'package:mounts_of_the_world/data/mountains.dart';
 
 import '../models/mount.dart';
 
-class AppMountListView extends StatelessWidget {
-  const AppMountListView({Key? key}) : super(key: key);
+class AppMountList extends StatelessWidget {
+  const AppMountList({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

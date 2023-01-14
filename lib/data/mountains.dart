@@ -1,3 +1,6 @@
+import 'package:flutter/material.dart';
+
+import '../models/category.dart';
 import '../models/mount.dart';
 
 final List<Mount> mountItems = [
@@ -41,4 +44,11 @@ final List<Mount> mountItems = [
           ' the Trans-Mexican volcanic belt. At 5,426 m it is the second highest'
           ' peak in Mexico, after Citlaltépetl at 5,636 m.',
       location: 'Mexico')
+];
+
+final List<Category> categories = [
+  Category(category: 'Mountain', icon: Icons.terrain),
+  Category(category: 'Forest', icon: Icons.park),
+  Category(category: 'Beach', icon: Icons.beach_access),
+  Category(category: 'Hiking', icon: Icons.directions_walk)
 ];
