@@ -1,16 +1,10 @@
-# mounts_of_the_world
+# Mounts of the World
 
-A new Flutter project.
+Flutter UI challenge (Splash Screen, Landing Page, Details) aimed at illustrating how to create Flutter user interfaces with ease. 
 
-## Getting Started
+[x] Common Flutter layout startegies using just core widgets.
+[x] Creating custom Flutter widgets and best practices to achieve widget composition.
+[x] Creating Dart models to mock up data.
+[x] Network Images, Material Icons, Basic Navigation strategies.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Mounts of the World App ](images/mounts.png)
