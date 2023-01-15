@@ -41,13 +41,13 @@ class MountsPage extends StatelessWidget {
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const AppHeader(),
-          const AppSearch(),
-          const Expanded(
+        children: const [
+          AppHeader(),
+          AppSearch(),
+          Expanded(
             child: AppMountList(),
           ),
-          const AppCategoryList(),
+          AppCategoryList(),
           AppBottomBar(),
         ],
       ),
